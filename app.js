@@ -1,7 +1,7 @@
 import config from "./config.js";
 
 const api=config.API_KEY;
-console.log(api);
+
 async function fetchData(api){
 
   document.querySelector('.image').addEventListener('click',async ()=>{
